@@ -119,7 +119,7 @@ ol {
   background-color: #fff;
 }
 
-.search-form__pseudo-checkbox:checked::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   display: block;
 }
 
@@ -187,7 +187,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  width: 100%;
+  width: 399px;
   height: 100%;
 }
 

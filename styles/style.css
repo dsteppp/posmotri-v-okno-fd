@@ -50,6 +50,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   padding-bottom: 16px;
@@ -203,6 +204,7 @@ button:focus {
 }
 
 .content__list-container {
+  position: relative;
   height: 298px;
   padding: 5px 5px 0 5px;
   overflow-y: auto;

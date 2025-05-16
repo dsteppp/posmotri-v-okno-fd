@@ -88,7 +88,7 @@ ol {
   border-bottom: 1px solid #fff;
   border-left: none;
   outline: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: transparent;
@@ -181,6 +181,7 @@ button:focus {
 
 .more-button {
   width: 100%;
+  margin: 30px 0 1px;
 }
 
 .content__details {
@@ -195,7 +196,7 @@ button:focus {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -214,7 +215,6 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin-bottom: 30px;
 }
 
 .content__card-link {
@@ -222,6 +222,10 @@ button:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__card-link:focus {
@@ -234,7 +238,6 @@ button:focus {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-underline-offset: 2px;
 }
 
 .content__card-link_current {
@@ -259,7 +262,7 @@ button:focus {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 1;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -269,7 +272,7 @@ button:focus {
   width: 195px;
   max-width: 100%;
   overflow: hidden;
-  line-height: 90%;
+  line-height: 0.9;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
